@@ -6,6 +6,7 @@ class River
 
     @name = name
     @fish = []
+    
   end
 
   def add_fish(fish)

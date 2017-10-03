@@ -1,6 +1,6 @@
 class Bear
 
-  attr_accessor :name
+  attr_accessor :name, :belly
 
   def initialize(name)
 
@@ -9,7 +9,8 @@ class Bear
 
   end
 
-  def eat_fish(fish)
+  def eat_fish(river)
+    fish = river.fish.pop()
     @belly.push(fish)
   end
 
