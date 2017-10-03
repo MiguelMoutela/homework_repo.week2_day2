@@ -8,4 +8,10 @@ class Bear
     @belly = []
 
   end
+
+  def eat_fish(fish)
+    @belly.push(fish)
+  end
+
+
 end
