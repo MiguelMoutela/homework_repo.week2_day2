@@ -8,7 +8,7 @@ class TestBear < MiniTest::Test
 
   def setup
 
-    @bear.new('Tony', [])
+    @bear = Bear.new('Yogi', [])
 
   end
 

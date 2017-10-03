@@ -8,7 +8,9 @@ class TestBear < MiniTest::Test
 
   def setup
 
-    @river.new('Amazon', [])
+    @river = River.new('Amazon')
+    @fish = Fish.new('Nemo_1')
+    @fish = Fish.new('Nemo_2')
 
   end
 

@@ -3,13 +3,17 @@ require("minitest/autorun")
 require("minitest/rg")
 
 
-class TestBear < MiniTest::Test
+class TestFish < MiniTest::Test
 
 
   def setup
 
-    @fish.new('Jarrod')
+    @fish = Fish.new('Nemo')
 
+  end
+
+  def test_get_name
+    assert_equal("Nemo", @fish.name) 
   end
 
 end
